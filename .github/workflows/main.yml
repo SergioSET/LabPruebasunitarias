@@ -20,8 +20,11 @@ jobs:
     - name: Install jest
       run: npm install --save-dev jest
 
+    - name: Install lint
+      run: npm install eslint eslint-plugin-complexity --save-dev
+
     - name: Install dependencies
       run: npm ci
 
     - name: Run tests
-      run: npm test
+      run: npm run test:coverage
