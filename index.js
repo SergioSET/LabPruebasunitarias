@@ -26,7 +26,8 @@ function sum(a, b) {
     sum,
     subtract,
     multiply,
-    divide
+    divide,
+    complexFunction
   };
   
   
